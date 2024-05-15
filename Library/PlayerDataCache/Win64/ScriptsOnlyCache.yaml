@@ -1,0 +1,650 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp.dll:
+    - UdonSharp.Video.Internal.ObjectToggle
+    - UdonSharp.Video.RendererGIUpdate
+    - UdonSharp.Video.SyncModeController
+    - UdonSharp.Video.UI.UIStyle
+    - UdonSharp.Video.UI.UIStyleMarkup
+    - UdonSharp.Video.UI.UIStyler
+    - UdonSharp.Video.USharpVideoPlayer
+    - UdonSharp.Video.VideoControlHandler
+    - UdonSharp.Video.VideoPlayerManager
+    - UdonSharp.Video.VideoScreenHandler
+    - UdonSharp.Video.VolumeController
+    - VLB.Config
+    - VLB.ShaderGenerator
+    BakeryRuntimeAssembly.dll:
+    - BakeryLightmapGroup
+    - BakeryPointLight
+    - BakeryProjectSettings
+    - BakerySkyLight
+    - ftGlobalStorage
+    - ftLightmapsStorage
+    - ftLocalStorage
+    Cyan.CyanTrigger.Editor.dll:
+    - Cyan.CT.Editor.CyanTriggerActionGroupDefinitionUdonAsset
+    - Cyan.CT.Editor.CyanTriggerEditableProgramAsset
+    - Cyan.CT.Editor.CyanTriggerProgramAsset
+    - Cyan.CT.Editor.CyanTriggerSettingsData
+    Cyan.CyanTrigger.dll:
+    - Cyan.CT.CyanTrigger
+    NonConvexCollider.dll:
+    - Plawius.NonConvexCollider.NonConvexColliderComponent
+    UdonSharp.Editor.dll:
+    - UdonSharp.UdonSharpProgramAsset
+    - UdonSharpEditor.UdonSharpAssemblyDefinition
+    Unity.InputSystem.dll:
+    - UnityEngine.InputSystem.InputActionAsset
+    - UnityEngine.InputSystem.InputSettings
+    - UnityEngine.InputSystem.InputSystemObject
+    - UnityEngine.InputSystem.RemoteInputPlayerConnection
+    Unity.Postprocessing.Runtime.dll:
+    - UnityEngine.Rendering.PostProcessing.AmbientOcclusion
+    - UnityEngine.Rendering.PostProcessing.AutoExposure
+    - UnityEngine.Rendering.PostProcessing.Bloom
+    - UnityEngine.Rendering.PostProcessing.ChromaticAberration
+    - UnityEngine.Rendering.PostProcessing.ColorGrading
+    - UnityEngine.Rendering.PostProcessing.DepthOfField
+    - UnityEngine.Rendering.PostProcessing.Grain
+    - UnityEngine.Rendering.PostProcessing.LensDistortion
+    - UnityEngine.Rendering.PostProcessing.MotionBlur
+    - UnityEngine.Rendering.PostProcessing.PostProcessLayer
+    - UnityEngine.Rendering.PostProcessing.PostProcessProfile
+    - UnityEngine.Rendering.PostProcessing.PostProcessResources
+    - UnityEngine.Rendering.PostProcessing.PostProcessVolume
+    - UnityEngine.Rendering.PostProcessing.ScreenSpaceReflections
+    - UnityEngine.Rendering.PostProcessing.Vignette
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TerrainTools.Editor.dll:
+    - UnityEditor.TerrainTools.BillowNoise
+    - UnityEditor.TerrainTools.FbmFractalType
+    - UnityEditor.TerrainTools.NoiseBlitShaderGenerator
+    - UnityEditor.TerrainTools.NoiseFillShaderGenerator
+    - UnityEditor.TerrainTools.NoneFractalType
+    - UnityEditor.TerrainTools.PerlinNoise
+    - UnityEditor.TerrainTools.RidgeNoise
+    - UnityEditor.TerrainTools.StrataFractalType
+    - UnityEditor.TerrainTools.ValueNoise
+    - UnityEditor.TerrainTools.VoronoiNoise
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
+    Unity.XR.Management.Editor.dll:
+    - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
+    Unity.XR.Management.dll:
+    - UnityEngine.XR.Management.XRGeneralSettings
+    - UnityEngine.XR.Management.XRManagerSettings
+    Unity.XR.Oculus.dll:
+    - Unity.XR.Oculus.OculusLoader
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimatorControllerTool
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventTrigger
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.GridLayoutGroup
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.InputField
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.Slider
+    - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
+    - UnityEngine.UI.ToggleGroup
+    VRC.ClientSim.Editor.dll:
+    - VRC.SDK3.ClientSim.ClientSimInputAxesSettings
+    VRC.ClientSim.dll:
+    - VRC.SDK3.ClientSim.ClientSimDesktopTrackingProvider
+    - VRC.SDK3.ClientSim.ClientSimHighlightProxy
+    - VRC.SDK3.ClientSim.ClientSimPlayer
+    - VRC.SDK3.ClientSim.ClientSimPlayerAvatarManager
+    - VRC.SDK3.ClientSim.ClientSimPlayerController
+    - VRC.SDK3.ClientSim.ClientSimPlayerHand
+    - VRC.SDK3.ClientSim.ClientSimPlayerRaycaster
+    - VRC.SDK3.ClientSim.ClientSimPlayerStationManager
+    - VRC.SDK3.ClientSim.ClientSimProxyObjects
+    - VRC.SDK3.ClientSim.ClientSimReticle
+    - VRC.SDK3.ClientSim.ClientSimStackedCamera
+    - VRC.SDK3.ClientSim.ClientSimTooltip
+    VRC.SDKBase.Editor.dll:
+    - VRCSdkControlPanel
+    VRC.Udon.Editor.dll:
+    - VRC.Udon.Editor.ProgramSources.UdonGraphProgram.UdonGraphProgramAsset
+    VRC.Udon.dll:
+    - VRC.Udon.ProgramSources.SerializedUdonProgramAsset
+    - VRC.Udon.UdonBehaviour
+    VRCCore-Editor.dll:
+    - BestHTTP.HTTPUpdateDelegator
+    - VRC.Core.PipelineManager
+    - VRC.Core.Pool.PoolManager
+    - VRC.Core.UpdateDelegator
+    - VRCProjectSettings
+    VRCSDK3.dll:
+    - VRC.SDK3.Components.VRCMirrorReflection
+    - VRC.SDK3.Components.VRCSceneDescriptor
+    - VRC.SDK3.Components.VRCSpatialAudioSource
+    - VRC.SDK3.Components.VRCUiShape
+    - VRC.SDK3.Components.VRCUrlInputField
+    - VRC.SDK3.Video.Components.AVPro.VRCAVProVideoPlayer
+    - VRC.SDK3.Video.Components.AVPro.VRCAVProVideoScreen
+    - VRC.SDK3.Video.Components.AVPro.VRCAVProVideoSpeaker
+    - VRC.SDK3.Video.Components.VRCUnityVideoPlayer
+    VRCSDKBase.dll:
+    - VRC.SDKBase.Validation.Performance.Stats.AvatarPerformanceStatsLevel
+    - VRC.SDKBase.Validation.Performance.Stats.AvatarPerformanceStatsLevelSet
+  serializedClasses:
+    BakeryRuntimeAssembly:
+    - ftGlobalStorage/AdjustedMesh
+    - ftGlobalStorage/AtlasPacker
+    - ftLightmapsStorage/LightData
+    - ftLightmapsStorage/SectorData
+    NonConvexColliderRuntimeAPI:
+    - Plawius.NonConvexCollider.Parameters
+    Unity.Postprocessing.Runtime:
+    - UnityEngine.Rendering.PostProcessing.BoolParameter
+    - UnityEngine.Rendering.PostProcessing.ColorParameter
+    - UnityEngine.Rendering.PostProcessing.EyeAdaptationParameter
+    - UnityEngine.Rendering.PostProcessing.FastApproximateAntialiasing
+    - UnityEngine.Rendering.PostProcessing.FloatParameter
+    - UnityEngine.Rendering.PostProcessing.Fog
+    - UnityEngine.Rendering.PostProcessing.GradingModeParameter
+    - UnityEngine.Rendering.PostProcessing.HistogramMonitor
+    - UnityEngine.Rendering.PostProcessing.LightMeterMonitor
+    - UnityEngine.Rendering.PostProcessing.PostProcessDebugLayer
+    - UnityEngine.Rendering.PostProcessing.PostProcessDebugLayer/OverlaySettings
+    - UnityEngine.Rendering.PostProcessing.PostProcessResources/ComputeShaders
+    - UnityEngine.Rendering.PostProcessing.PostProcessResources/SMAALuts
+    - UnityEngine.Rendering.PostProcessing.PostProcessResources/Shaders
+    - UnityEngine.Rendering.PostProcessing.Spline
+    - UnityEngine.Rendering.PostProcessing.SplineParameter
+    - UnityEngine.Rendering.PostProcessing.SubpixelMorphologicalAntialiasing
+    - UnityEngine.Rendering.PostProcessing.TemporalAntialiasing
+    - UnityEngine.Rendering.PostProcessing.TextureParameter
+    - UnityEngine.Rendering.PostProcessing.TonemapperParameter
+    - UnityEngine.Rendering.PostProcessing.Vector2Parameter
+    - UnityEngine.Rendering.PostProcessing.Vector4Parameter
+    - UnityEngine.Rendering.PostProcessing.VectorscopeMonitor
+    - UnityEngine.Rendering.PostProcessing.WaveformMonitor
+    Unity.TextMeshPro:
+    - TMPro.FaceInfo_Legacy
+    - TMPro.FontAssetCreationSettings
+    - TMPro.KerningTable
+    - TMPro.TMP_Character
+    - TMPro.TMP_FontFeatureTable
+    - TMPro.TMP_FontWeightPair
+    - TMPro.TMP_GlyphAdjustmentRecord
+    - TMPro.TMP_GlyphPairAdjustmentRecord
+    - TMPro.TMP_GlyphValueRecord
+    - TMPro.VertexGradient
+    UnityEngine.CoreModule:
+    - UnityEngine.Events.ArgumentCache
+    - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.Events.PersistentListenerMode
+    - UnityEngine.RectOffset
+    UnityEngine.TextCoreFontEngineModule:
+    - UnityEngine.TextCore.FaceInfo
+    - UnityEngine.TextCore.Glyph
+    - UnityEngine.TextCore.GlyphMetrics
+    - UnityEngine.TextCore.GlyphRect
+    UnityEngine.UI:
+    - UnityEngine.EventSystems.EventTrigger/Entry
+    - UnityEngine.EventSystems.EventTrigger/TriggerEvent
+    - UnityEngine.UI.AnimationTriggers
+    - UnityEngine.UI.Button/ButtonClickedEvent
+    - UnityEngine.UI.ColorBlock
+    - UnityEngine.UI.FontData
+    - UnityEngine.UI.InputField/EndEditEvent
+    - UnityEngine.UI.InputField/OnChangeEvent
+    - UnityEngine.UI.InputField/SubmitEvent
+    - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+    - UnityEngine.UI.Navigation
+    - UnityEngine.UI.Slider/SliderEvent
+    - UnityEngine.UI.SpriteState
+    - UnityEngine.UI.Toggle/ToggleEvent
+    VRCSDK3:
+    - VRC.SDK3.Components.VRCUrlInputField/OnChangeEvent
+    - VRC.SDK3.Components.VRCUrlInputField/SubmitEvent
+    - VRC.SDK3.Video.Components.AVPro.VRCAVProVideoSpeaker/ChannelMode
+    VRCSDKBase:
+    - VRC.SDKBase.Network.NetworkIDPair
+    - VRC.SDKBase.VRCUrl
+  methodsToPreserve:
+  - assembly: VRC.Udon
+    fullTypeName: VRC.Udon.UdonBehaviour
+    methodName: Interact
+  - assembly: VRC.Udon
+    fullTypeName: VRC.Udon.UdonBehaviour
+    methodName: Interact
+  - assembly: VRC.Udon
+    fullTypeName: VRC.Udon.UdonBehaviour
+    methodName: Interact
+  - assembly: VRC.Udon
+    fullTypeName: VRC.Udon.UdonBehaviour
+    methodName: SendCustomEvent
+  - assembly: VRC.Udon
+    fullTypeName: VRC.Udon.UdonBehaviour
+    methodName: SendCustomEvent
+  - assembly: VRC.Udon
+    fullTypeName: VRC.Udon.UdonBehaviour
+    methodName: Interact
+  - assembly: VRC.Udon
+    fullTypeName: VRC.Udon.UdonBehaviour
+    methodName: Interact
+  - assembly: VRC.Udon
+    fullTypeName: VRC.Udon.UdonBehaviour
+    methodName: Interact
+  sceneClasses:
+    Assets/URBAN CITY PACKAGE/Demo Scene/Demo scene night.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 29
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 72
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 17068}
+    - Class: 114
+      Script: {instanceID: 17074}
+    - Class: 114
+      Script: {instanceID: 17154}
+    - Class: 114
+      Script: {instanceID: 18136}
+    - Class: 114
+      Script: {instanceID: 18436}
+    - Class: 114
+      Script: {instanceID: 18662}
+    - Class: 114
+      Script: {instanceID: 18730}
+    - Class: 114
+      Script: {instanceID: 19018}
+    - Class: 114
+      Script: {instanceID: 19040}
+    - Class: 114
+      Script: {instanceID: 19066}
+    - Class: 114
+      Script: {instanceID: 19218}
+    - Class: 114
+      Script: {instanceID: 19740}
+    - Class: 114
+      Script: {instanceID: 20048}
+    - Class: 114
+      Script: {instanceID: 20148}
+    - Class: 114
+      Script: {instanceID: 21284}
+    - Class: 114
+      Script: {instanceID: 21292}
+    - Class: 114
+      Script: {instanceID: 21314}
+    - Class: 114
+      Script: {instanceID: 21416}
+    - Class: 114
+      Script: {instanceID: 21480}
+    - Class: 114
+      Script: {instanceID: 21742}
+    - Class: 114
+      Script: {instanceID: 21822}
+    - Class: 114
+      Script: {instanceID: 21904}
+    - Class: 114
+      Script: {instanceID: 22102}
+    - Class: 114
+      Script: {instanceID: 22104}
+    - Class: 114
+      Script: {instanceID: 22106}
+    - Class: 114
+      Script: {instanceID: 22118}
+    - Class: 114
+      Script: {instanceID: 22126}
+    - Class: 114
+      Script: {instanceID: 22128}
+    - Class: 114
+      Script: {instanceID: 22132}
+    - Class: 114
+      Script: {instanceID: 22134}
+    - Class: 114
+      Script: {instanceID: 22136}
+    - Class: 114
+      Script: {instanceID: 22758}
+    - Class: 114
+      Script: {instanceID: 22916}
+    - Class: 114
+      Script: {instanceID: 22924}
+    - Class: 114
+      Script: {instanceID: 22966}
+    - Class: 114
+      Script: {instanceID: 23560}
+    - Class: 114
+      Script: {instanceID: 24434}
+    - Class: 114
+      Script: {instanceID: 24854}
+    - Class: 114
+      Script: {instanceID: 24916}
+    - Class: 114
+      Script: {instanceID: 25240}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 215
+      Script: {instanceID: 0}
+    - Class: 220
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+    - Class: 363
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 1ed846c1ed9d69c8c2fcff9a6896b04f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 6a356b04c25c0bb008c1b24bf8b0f996
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 16c8cbd24a32f9d6625615e0e9098073
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: fc4b10d676d5a5aae087dfc9c7748857
+    assemblyName: Unity.Postprocessing.Runtime
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessLayer
+  - hash:
+      serializedVersion: 2
+      Hash: 967d313ecdaede0a718346b5534aa398
+    assemblyName: VRC.Udon
+    namespaceName: VRC.Udon.ProgramSources
+    className: SerializedUdonProgramAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 6498fc76484598db46c5c1a11bab42fa
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: be8b55fc8a992741c6269f20cbc719b1
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: de5fb775c4dac50ec07be6131ba24155
+    assemblyName: Assembly-CSharp
+    namespaceName: UdonSharp.Video.UI
+    className: UIStyler
+  - hash:
+      serializedVersion: 2
+      Hash: a4d905db69ca7f45f45458ae380fb66f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 0b7995e6c59201aa9b4ad6a0aecb4621
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 843836ad56ce5ef50c83c4db3bf552d1
+    assemblyName: Unity.Postprocessing.Runtime
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: AutoExposure
+  - hash:
+      serializedVersion: 2
+      Hash: da4d32f9cd3b02cc835567ea8973a171
+    assemblyName: Unity.Postprocessing.Runtime
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: Bloom
+  - hash:
+      serializedVersion: 2
+      Hash: 4fb2129138e2d316cdd6a038d0093762
+    assemblyName: BakeryRuntimeAssembly
+    namespaceName: 
+    className: BakeryPointLight
+  - hash:
+      serializedVersion: 2
+      Hash: b18151310f999106767addd7177d1a99
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: a774afc2d683a1fb0fa29ecc0d5a6fb5
+    assemblyName: Unity.Postprocessing.Runtime
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessVolume
+  - hash:
+      serializedVersion: 2
+      Hash: 61f1bf1dac233396e072ee60e65f3543
+    assemblyName: BakeryRuntimeAssembly
+    namespaceName: 
+    className: ftLightmapsStorage
+  - hash:
+      serializedVersion: 2
+      Hash: 2679ae017c0397b954151b4974a5c490
+    assemblyName: VRC.Udon
+    namespaceName: VRC.Udon
+    className: UdonBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 142264d9d6b0842e37d4aad2e8ff56d0
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: e44c1964aad6fb40563573cf6608be1c
+    assemblyName: Unity.Postprocessing.Runtime
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessResources
+  - hash:
+      serializedVersion: 2
+      Hash: fa7c62595553866a25a1f687b1914fd2
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 892b5093967522535ba980d28ce42084
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 1b4a83f2a2f1a4def12cdc9223cce72c
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: b4034501980bcba5602327baa015bd60
+    assemblyName: VRCSDK3.dll
+    namespaceName: VRC.SDK3.Video.Components.AVPro
+    className: VRCAVProVideoPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: b8c5580843c5221fae5a179ba90a6008
+    assemblyName: VRCSDK3.dll
+    namespaceName: VRC.SDK3.Video.Components.AVPro
+    className: VRCAVProVideoScreen
+  - hash:
+      serializedVersion: 2
+      Hash: e3f09c72ed51dae1586d0bcde735569f
+    assemblyName: VRCSDK3.dll
+    namespaceName: VRC.SDK3.Video.Components.AVPro
+    className: VRCAVProVideoSpeaker
+  - hash:
+      serializedVersion: 2
+      Hash: af00ad5f968b069ea43fbd40559bb29b
+    assemblyName: VRCSDK3.dll
+    namespaceName: VRC.SDK3.Components
+    className: VRCMirrorReflection
+  - hash:
+      serializedVersion: 2
+      Hash: 1542bc4db15bf8fa1597c00d2fa8cf0a
+    assemblyName: VRCSDK3.dll
+    namespaceName: VRC.SDK3.Components
+    className: VRCSceneDescriptor
+  - hash:
+      serializedVersion: 2
+      Hash: d4a30c3b954b6f63440217d1db1fd638
+    assemblyName: VRCSDK3.dll
+    namespaceName: VRC.SDK3.Components
+    className: VRCSpatialAudioSource
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: VRCSDK3.dll
+    namespaceName: VRC.SDK3.Components
+    className: VRCUiShape
+  - hash:
+      serializedVersion: 2
+      Hash: b6a42e7d825d19c4acbced8578b5d7f9
+    assemblyName: VRCSDK3.dll
+    namespaceName: VRC.SDK3.Video.Components
+    className: VRCUnityVideoPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: e7374b19a7176876afa60718e325de77
+    assemblyName: VRCSDK3.dll
+    namespaceName: VRC.SDK3.Components
+    className: VRCUrlInputField
+  - hash:
+      serializedVersion: 2
+      Hash: cf4644c28cfc0982f6f6e4212b8dfa74
+    assemblyName: Assembly-CSharp
+    namespaceName: UdonSharp.Video.UI
+    className: UIStyle
+  - hash:
+      serializedVersion: 2
+      Hash: 46ffbaea01259c5c7ee677afefd93ea8
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: e2bf979dc8dc53cd93d538c134d6151c
+    assemblyName: Assembly-CSharp
+    namespaceName: UdonSharp.Video.UI
+    className: UIStyleMarkup
+  - hash:
+      serializedVersion: 2
+      Hash: da7b4f6f01b020e0462f2d0e3b42af86
+    assemblyName: VRCCore-Editor.dll
+    namespaceName: VRC.Core
+    className: PipelineManager
+  - hash:
+      serializedVersion: 2
+      Hash: 00f28665315390397997a6e29bdb15fd
+    assemblyName: NonConvexCollider
+    namespaceName: Plawius.NonConvexCollider
+    className: NonConvexColliderComponent
+  - hash:
+      serializedVersion: 2
+      Hash: c92e03126f82226c2e517b0c562a3094
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 8a19dad21d969aca0399d1618eb1c727
+    assemblyName: Unity.Postprocessing.Runtime
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessProfile
+  - hash:
+      serializedVersion: 2
+      Hash: 369f86398cd9159dbcf48be4f4d46a1a
+    assemblyName: BakeryRuntimeAssembly
+    namespaceName: 
+    className: BakerySkyLight
+  - hash:
+      serializedVersion: 2
+      Hash: a0c3d8ac0230199d5e0acf6626e72964
+    assemblyName: Unity.Postprocessing.Runtime
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: ColorGrading
+  platform: 19
+  scenePathNames:
+  - Assets/URBAN CITY PACKAGE/Demo Scene/Demo scene night.unity
+  playerPath: C:/Users/richa/AppData/Local/Temp/DefaultCompany/LugaBar 2_0/scene-standalonewindows64-demo
+    scene night.vrcw

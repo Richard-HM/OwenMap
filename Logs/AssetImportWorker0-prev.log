@@ -1,0 +1,393 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.6f1 (b9e6e7e9fa2d) revision 12183271'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'es' Physical Memory: 32713 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+J:\Program Files\Unity Hub\Editor\2022.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Unity Projects/LugaBar 2.0
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50105
+Successfully changed project path to: E:/Unity Projects/LugaBar 2.0
+E:/Unity Projects/LugaBar 2.0
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [30312] Host "[IP] 192.168.0.4 [Port] 0 [Flags] 2 [Guid] 920395568 [EditorId] 920395568 [Version] 1048832 [Id] WindowsEditor(7,Richard) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [30312] Host "[IP] 192.168.0.4 [Port] 0 [Flags] 2 [Guid] 920395568 [EditorId] 920395568 [Version] 1048832 [Id] WindowsEditor(7,Richard) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 37.92 ms, found 28 plugins.
+Preloading 2 native plugins for Editor in 1.14 ms.
+Initialize engine version: 2022.3.6f1 (b9e6e7e9fa2d)
+[Subsystems] Discovering subsystems at path J:/Program Files/Unity Hub/Editor/2022.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Unity Projects/LugaBar 2.0/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 SUPER (ID=0x2783)
+    Vendor:   NVIDIA
+    VRAM:     11999 MB
+    Driver:   31.0.15.5212
+Initialize mono
+Mono path[0] = 'J:/Program Files/Unity Hub/Editor/2022.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'J:/Program Files/Unity Hub/Editor/2022.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'J:/Program Files/Unity Hub/Editor/2022.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56652
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: J:/Program Files/Unity Hub/Editor/2022.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: J:/Program Files/Unity Hub/Editor/2022.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005791 seconds.
+- Loaded All Assemblies, in  0.365 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.329 seconds
+Domain Reload Profiling: 694ms
+	BeginReloadAssembly (107ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (156ms)
+		LoadAssemblies (107ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (152ms)
+			TypeCache.Refresh (151ms)
+				TypeCache.ScanAssembly (138ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (329ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (267ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (99ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (110ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.066 seconds
+Refreshing native plugins compatible for Editor in 12.41 ms, found 28 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.ArgumentNullException: Value cannot be null.
+Parameter name: path
+  at System.IO.Directory.CreateDirectory (System.String path) [0x00003] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at VRC.SDKBase.Editor.VRCPackageSettings.EnsurePathExists () [0x0000b] in .\Packages\com.vrchat.base\Editor\VRCSDK\Dependencies\VRChat\VRCPackageSettings.cs:45 
+  at VRC.SDKBase.Editor.VRCPackageSettings.Load () [0x00000] in .\Packages\com.vrchat.base\Editor\VRCSDK\Dependencies\VRChat\VRCPackageSettings.cs:50 
+  at VRC.SDKBase.Editor.VRCPackageSettings.Create () [0x00005] in .\Packages\com.vrchat.base\Editor\VRCSDK\Dependencies\VRChat\VRCPackageSettings.cs:19 
+  at VRC.SDKBase.Editor.SampleHintCreator..cctor () [0x00007] in .\Packages\com.vrchat.base\Editor\VRCSDK\SampleHintCreator.cs:18 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00040] in .\Library\PackageCache\com.unity.xr.oculus@4.0.0\Runtime\OculusLoader.cs:282 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in .\Library\PackageCache\com.unity.xr.oculus@4.0.0\Runtime\OculusLoader.cs:267 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <eef08f56e2e042f1b3027eca477293d9>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <347e3e2bef8c4deb82c9790c6e198135>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.576 seconds
+Domain Reload Profiling: 3641ms
+	BeginReloadAssembly (181ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (785ms)
+		LoadAssemblies (459ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (433ms)
+			TypeCache.Refresh (397ms)
+				TypeCache.ScanAssembly (381ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (2577ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1272ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (712ms)
+			ProcessInitializeOnLoadMethodAttributes (469ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 19.05 ms, found 28 plugins.
+Preloading 2 native plugins for Editor in 0.10 ms.
+Unloading 4594 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 372 unused Assets / (3.1 MB). Loaded Objects now: 5050.
+Memory consumption went from 254.1 MB to 251.0 MB.
+Total: 13.955500 ms (FindLiveObjects: 0.525300 ms CreateObjectMapping: 0.351400 ms MarkObjects: 12.070200 ms  DeleteObjects: 1.007800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 590585.497926 seconds.
+  path: Assets/!cumple/cake/model.obj
+  artifactKey: Guid(cceea7ab06e0b7a45b4d36497054dca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!cumple/cake/model.obj using Guid(cceea7ab06e0b7a45b4d36497054dca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5daa43e96440fd0d1f4fb9278a237bca') in 0.298938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 1.472606 seconds.
+  path: Assets/!cumple/cake/A_7c7f51782d274afe8890e65bdf2e15e3_T_StrawberryCake_M.png
+  artifactKey: Guid(d5d040268f919fe4f834974eda6f5dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!cumple/cake/A_7c7f51782d274afe8890e65bdf2e15e3_T_StrawberryCake_M.png using Guid(d5d040268f919fe4f834974eda6f5dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce8c21ca2968dd53c98f3e896c262ccf') in 0.019924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.905193 seconds.
+  path: Assets/!cumple/cake/N_0656ff2035294b48a31c6d419e4397de_T_StrawberryCake_N.jpeg
+  artifactKey: Guid(80a8137e9ef5a544eacf10598abe45c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!cumple/cake/N_0656ff2035294b48a31c6d419e4397de_T_StrawberryCake_N.jpeg using Guid(80a8137e9ef5a544eacf10598abe45c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563c650963b96f3d3f1e3697e3e5e5b3') in 0.305644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/!cumple/cake/R_45138cd04a1143e3a1e8770cc0dd42f5_T_StrawberryCake_AO.jpeg
+  artifactKey: Guid(6841f3d96681aec44a7cdcc0333ad325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!cumple/cake/R_45138cd04a1143e3a1e8770cc0dd42f5_T_StrawberryCake_AO.jpeg using Guid(6841f3d96681aec44a7cdcc0333ad325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa9eb3d00e0d9abcbf70c5ad9d64632f') in 0.013958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 163.113000 seconds.
+  path: Assets/!cumple/cake/N_0656ff2035294b48a31c6d419e4397de_T_StrawberryCake_N.jpeg
+  artifactKey: Guid(80a8137e9ef5a544eacf10598abe45c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!cumple/cake/N_0656ff2035294b48a31c6d419e4397de_T_StrawberryCake_N.jpeg using Guid(80a8137e9ef5a544eacf10598abe45c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e376bdd1d52be67c66557d70a424ec2') in 0.022203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 32.257301 seconds.
+  path: Assets/!cumple
+  artifactKey: Guid(8b3d727914a6389499964df72b390f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!cumple using Guid(8b3d727914a6389499964df72b390f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad9f3fc666a3e5384d95faf3daf3d468') in 0.000592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.411853 seconds.
+  path: Assets/!cumple/candle
+  artifactKey: Guid(84edbee399e19c345a8b008dde294c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!cumple/candle using Guid(84edbee399e19c345a8b008dde294c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '685b53b6e6302be9cd99e041987a7f98') in 0.000384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 66.196236 seconds.
+  path: Assets/!cumple/Candel prefab
+  artifactKey: Guid(28a5d3702c0216c4e8aa729c4f7e6e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!cumple/Candel prefab using Guid(28a5d3702c0216c4e8aa729c4f7e6e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08378356d299334e9fa774f4f44304c5') in 0.000389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.081808 seconds.
+  path: Assets/!cumple/Candel prefab/Candle liltoon.mat
+  artifactKey: Guid(da1d8572fc041854ba4561e911d5d3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!cumple/Candel prefab/Candle liltoon.mat using Guid(da1d8572fc041854ba4561e911d5d3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ad338d5c057479f4486e2126bcab6e2') in 0.169718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 2.338789 seconds.
+  path: Assets/!cumple/Candel prefab/prefab
+  artifactKey: Guid(79ecc89add1ba5f4fb251918f502f33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!cumple/Candel prefab/prefab using Guid(79ecc89add1ba5f4fb251918f502f33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a46493df3d5d8af5276a327d27250af7') in 0.000528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.062807 seconds.
+  path: Assets/!cumple/Candel prefab/prefab/Candle.prefab
+  artifactKey: Guid(26b1c5f415708fd4585a0ac09e465036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!cumple/Candel prefab/prefab/Candle.prefab using Guid(26b1c5f415708fd4585a0ac09e465036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f081d6ace51f6623ee09f133ede28f37') in 0.104657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 74.817726 seconds.
+  path: Assets/!cumple/candle/bday_candle.blend
+  artifactKey: Guid(f75df16a975f3754fb1a086e44c31b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!cumple/candle/bday_candle.blend using Guid(f75df16a975f3754fb1a086e44c31b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '050049a49046ca1333b64547a3952bba') in 0.031880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 91.003591 seconds.
+  path: Assets/!cumple/cake/model.obj
+  artifactKey: Guid(cceea7ab06e0b7a45b4d36497054dca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!cumple/cake/model.obj using Guid(cceea7ab06e0b7a45b4d36497054dca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce9286e1e0a8fc13d1aa165797c52a76') in 0.020525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 1.886964 seconds.
+  path: Assets/!cumple/cake/Materials
+  artifactKey: Guid(80f7451f19384c8489f20be5fe68f148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!cumple/cake/Materials using Guid(80f7451f19384c8489f20be5fe68f148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f7b855a688ee83b630ab39602d51d59') in 0.000417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.042621 seconds.
+  path: Assets/!cumple/cake/Materials/RGB_94f85a42bdda41c5a65ab468904d5bbf_T_StrawberryCake_C.mat
+  artifactKey: Guid(a8680eb082b1d0a4f891b21940743a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!cumple/cake/Materials/RGB_94f85a42bdda41c5a65ab468904d5bbf_T_StrawberryCake_C.mat using Guid(a8680eb082b1d0a4f891b21940743a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c3e60ef2de96ba0543b393fd552de3f') in 0.216931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 435.524617 seconds.
+  path: Assets/!cumple/01- Cake
+  artifactKey: Guid(540203183e9202c4783b09640898499a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!cumple/01- Cake using Guid(540203183e9202c4783b09640898499a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f954e9fddd1f417e010ed571c80ce9e') in 0.000512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.052333 seconds.
+  path: Assets/!cumple/01- Cake/0_cake_metallic.png
+  artifactKey: Guid(410a1d4ac96b5914c99ff28dd4b7783f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!cumple/01- Cake/0_cake_metallic.png using Guid(410a1d4ac96b5914c99ff28dd4b7783f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c56ae9a10712c1fea747902227b61835') in 0.011190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/!cumple/01- Cake/Thumbnail.jpg
+  artifactKey: Guid(25290086689ce3440b360a0655e50de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!cumple/01- Cake/Thumbnail.jpg using Guid(25290086689ce3440b360a0655e50de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b6cd42122641defbfd8a423eb370cb4') in 0.016643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/!cumple/01- Cake/0_Strawberryleaf.jpeg
+  artifactKey: Guid(e7159edad1442c3479a26eacbd25ee1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!cumple/01- Cake/0_Strawberryleaf.jpeg using Guid(e7159edad1442c3479a26eacbd25ee1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c136820f7879bc23548316aa2d34e605') in 0.025160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/!cumple/01- Cake/1_cake_albedo.jpeg
+  artifactKey: Guid(b20ab85288b9e8d46835b24676e70933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!cumple/01- Cake/1_cake_albedo.jpeg using Guid(b20ab85288b9e8d46835b24676e70933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9a051a16fa883d4742973281e9127ff') in 0.020931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/!cumple/01- Cake/0_cake_roughness.jpeg
+  artifactKey: Guid(b7c305e86dfb245479e1fe3047ca2b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!cumple/01- Cake/0_cake_roughness.jpeg using Guid(b7c305e86dfb245479e1fe3047ca2b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '785024df356646a7500fc166a79659b4') in 0.016532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

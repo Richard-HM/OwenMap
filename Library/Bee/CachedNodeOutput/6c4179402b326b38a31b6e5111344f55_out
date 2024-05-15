@@ -1,0 +1,8 @@
+Packages\dev.onevr.vrworldtoolkit\Editor\WorldDebugger.cs(849,130): warning CS0618: 'LightmapEditorSettings.maxAtlasSize' is obsolete: 'LightmapEditorSettings.maxAtlasSize is obsolete, use LightingSettings.lightmapMaxSize instead. '
+Packages\dev.onevr.vrworldtoolkit\Editor\WorldDebugger.cs(851,21): warning CS0618: 'LightmapEditorSettings.maxAtlasSize' is obsolete: 'LightmapEditorSettings.maxAtlasSize is obsolete, use LightingSettings.lightmapMaxSize instead. '
+Packages\dev.onevr.vrworldtoolkit\Editor\WorldDebugger.cs(868,43): warning CS0618: 'TextureImporterFormat.ASTC_RGB_4x4' is obsolete: 'Use ASTC_4x4 (UnityUpgradable) -> ASTC_4x4'
+Packages\dev.onevr.vrworldtoolkit\Editor\WorldDebugger.cs(888,39): warning CS0618: 'TextureImporterFormat.ASTC_RGB_4x4' is obsolete: 'Use ASTC_4x4 (UnityUpgradable) -> ASTC_4x4'
+Packages\dev.onevr.vrworldtoolkit\Editor\WorldDebugger.cs(1830,99): warning CS0618: 'RenderSettings.customReflection' is obsolete: 'RenderSettings.customReflection has been deprecated in favor of RenderSettings.customReflectionTexture.'
+Packages\dev.onevr.vrworldtoolkit\Editor\WorldDebugger.cs(1967,40): warning CS0618: 'LightmapEditorSettings.maxAtlasSize' is obsolete: 'LightmapEditorSettings.maxAtlasSize is obsolete, use LightingSettings.lightmapMaxSize instead. '
+Packages\dev.onevr.vrworldtoolkit\Editor\WorldDebugger.cs(1981,25): warning CS0618: 'LightmapEditorSettings.lightmapper' is obsolete: 'LightmapEditorSettings.lightmapper is obsolete, use LightingSettings.lightmapper instead. '
+Packages\dev.onevr.vrworldtoolkit\Editor\WorldDebugger.cs(1981,67): warning CS0618: 'LightmapEditorSettings.Lightmapper' is obsolete: 'LightmapEditorSettings.Lightmapper is obsolete. Use LightingSettings.Lightmapper instead. '

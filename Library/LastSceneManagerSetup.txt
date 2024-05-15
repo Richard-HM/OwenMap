@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/URBAN CITY PACKAGE/Demo Scene/Demo scene night.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0

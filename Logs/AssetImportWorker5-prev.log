@@ -1,0 +1,417 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.6f1 (b9e6e7e9fa2d) revision 12183271'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'es' Physical Memory: 32713 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+J:\Program Files\Unity Hub\Editor\2022.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+E:/Unity Projects/LugaBar 2.0
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+50105
+Successfully changed project path to: E:/Unity Projects/LugaBar 2.0
+E:/Unity Projects/LugaBar 2.0
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [18476] Host "[IP] 192.168.0.4 [Port] 0 [Flags] 2 [Guid] 3682296700 [EditorId] 3682296700 [Version] 1048832 [Id] WindowsEditor(7,Richard) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [18476] Host "[IP] 192.168.0.4 [Port] 0 [Flags] 2 [Guid] 3682296700 [EditorId] 3682296700 [Version] 1048832 [Id] WindowsEditor(7,Richard) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 35.60 ms, found 28 plugins.
+Preloading 2 native plugins for Editor in 1.36 ms.
+Initialize engine version: 2022.3.6f1 (b9e6e7e9fa2d)
+[Subsystems] Discovering subsystems at path J:/Program Files/Unity Hub/Editor/2022.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Unity Projects/LugaBar 2.0/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 SUPER (ID=0x2783)
+    Vendor:   NVIDIA
+    VRAM:     11999 MB
+    Driver:   31.0.15.5212
+Initialize mono
+Mono path[0] = 'J:/Program Files/Unity Hub/Editor/2022.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'J:/Program Files/Unity Hub/Editor/2022.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'J:/Program Files/Unity Hub/Editor/2022.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56872
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: J:/Program Files/Unity Hub/Editor/2022.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: J:/Program Files/Unity Hub/Editor/2022.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004866 seconds.
+- Loaded All Assemblies, in  0.346 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.307 seconds
+Domain Reload Profiling: 653ms
+	BeginReloadAssembly (103ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (148ms)
+		LoadAssemblies (103ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (144ms)
+			TypeCache.Refresh (144ms)
+				TypeCache.ScanAssembly (132ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (308ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (252ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (96ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (103ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.007 seconds
+Refreshing native plugins compatible for Editor in 12.35 ms, found 28 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.ArgumentNullException: Value cannot be null.
+Parameter name: path
+  at System.IO.Directory.CreateDirectory (System.String path) [0x00003] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at VRC.SDKBase.Editor.VRCPackageSettings.EnsurePathExists () [0x0000b] in .\Packages\com.vrchat.base\Editor\VRCSDK\Dependencies\VRChat\VRCPackageSettings.cs:45 
+  at VRC.SDKBase.Editor.VRCPackageSettings.Load () [0x00000] in .\Packages\com.vrchat.base\Editor\VRCSDK\Dependencies\VRChat\VRCPackageSettings.cs:50 
+  at VRC.SDKBase.Editor.VRCPackageSettings.Create () [0x00005] in .\Packages\com.vrchat.base\Editor\VRCSDK\Dependencies\VRChat\VRCPackageSettings.cs:19 
+  at VRC.SDKBase.Editor.SampleHintCreator..cctor () [0x00007] in .\Packages\com.vrchat.base\Editor\VRCSDK\SampleHintCreator.cs:18 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00040] in .\Library\PackageCache\com.unity.xr.oculus@4.0.0\Runtime\OculusLoader.cs:282 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in .\Library\PackageCache\com.unity.xr.oculus@4.0.0\Runtime\OculusLoader.cs:267 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <eef08f56e2e042f1b3027eca477293d9>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <347e3e2bef8c4deb82c9790c6e198135>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.674 seconds
+Domain Reload Profiling: 3680ms
+	BeginReloadAssembly (124ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (808ms)
+		LoadAssemblies (362ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (514ms)
+			TypeCache.Refresh (476ms)
+				TypeCache.ScanAssembly (457ms)
+			ScanForSourceGeneratedMonoScriptInfo (28ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (2674ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1456ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (104ms)
+			ProcessInitializeOnLoadAttributes (892ms)
+			ProcessInitializeOnLoadMethodAttributes (429ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 19.45 ms, found 28 plugins.
+Preloading 2 native plugins for Editor in 0.09 ms.
+Unloading 4596 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 374 unused Assets / (3.3 MB). Loaded Objects now: 5053.
+Memory consumption went from 256.1 MB to 252.8 MB.
+Total: 9.828200 ms (FindLiveObjects: 0.348300 ms CreateObjectMapping: 0.327500 ms MarkObjects: 8.100700 ms  DeleteObjects: 1.051000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 594829.324972 seconds.
+  path: Assets/URBAN CITY PACKAGE/Demo Scene/Demo scene night/ReflectionProbe-0.exr
+  artifactKey: Guid(991b8be878ac9434eb7bd6ae0d2a73d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/URBAN CITY PACKAGE/Demo Scene/Demo scene night/ReflectionProbe-0.exr using Guid(991b8be878ac9434eb7bd6ae0d2a73d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b4fb0dea05c8dae7419032102b9432') in 0.075855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.087828 seconds.
+  path: Assets/EasyRoads3D/images/roadMarkerSettingsMore.jpg
+  artifactKey: Guid(f0d506922a3c464488f19cfea393f1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/roadMarkerSettingsMore.jpg using Guid(f0d506922a3c464488f19cfea393f1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd6179fe5078fe36cd3ccb714ffe07eb') in 0.015456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.246305 seconds.
+  path: Assets/EasyRoads3D/images/scene_settings.jpg
+  artifactKey: Guid(24eba2c181f81634dbaecf7963db071e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/scene_settings.jpg using Guid(24eba2c181f81634dbaecf7963db071e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '747d5de1a02d98430f44d11f0ba98dce') in 0.014926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.425327 seconds.
+  path: Assets/Bakery/examples/content/sky.exr
+  artifactKey: Guid(6e19027493120c045b35339747708734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bakery/examples/content/sky.exr using Guid(6e19027493120c045b35339747708734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ebe9ffc80cd1362cb7d76538bcad67') in 0.021816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/VRCPlayersOnlyMirror/Textures/SliderFill.png
+  artifactKey: Guid(176097d637ee0ce499c6435cba0f0e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRCPlayersOnlyMirror/Textures/SliderFill.png using Guid(176097d637ee0ce499c6435cba0f0e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '083886edc41f603f74fb4f656e197b16') in 0.084858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/EasyRoads3D/images/soProceduralMeshInspector.jpg
+  artifactKey: Guid(d5f2b7c69fd889a44a9008de7e4bdde5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/soProceduralMeshInspector.jpg using Guid(d5f2b7c69fd889a44a9008de7e4bdde5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9591e790a9bfd4e70608f98c54b421e') in 0.016115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/VRCPlayersOnlyMirror/Textures/Slider.png
+  artifactKey: Guid(7944d0900da78bd4794dbb3f8a62a648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRCPlayersOnlyMirror/Textures/Slider.png using Guid(7944d0900da78bd4794dbb3f8a62a648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8bdb21bb04c91647ce5ae5ccc80cc98') in 0.016502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.050301 seconds.
+  path: Assets/Bakery/examples/content/sponza/sponza.fbm/sponza_ceiling_a_diff.png
+  artifactKey: Guid(f5a4f568ff21d5249a4eeb6c1b8ac488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bakery/examples/content/sponza/sponza.fbm/sponza_ceiling_a_diff.png using Guid(f5a4f568ff21d5249a4eeb6c1b8ac488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dbca082d2c53002ff08436a566e29d4') in 0.016277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.068307 seconds.
+  path: Assets/Bakery/examples/content/sponza/sponza.fbm/sponza_details_diff.png
+  artifactKey: Guid(34bd4e0e934c4e04d879033761a176a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bakery/examples/content/sponza/sponza.fbm/sponza_details_diff.png using Guid(34bd4e0e934c4e04d879033761a176a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a061aaf45b0196d280311baf5846d79') in 0.046059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.069301 seconds.
+  path: Assets/Bakery/examples/content/sponza/sponza.fbm/sponza_roof_diff.png
+  artifactKey: Guid(2adfae10edb0b9440883cddec08a8efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bakery/examples/content/sponza/sponza.fbm/sponza_roof_diff.png using Guid(2adfae10edb0b9440883cddec08a8efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f4cd29543f0af516b5ad2267a5d0cd') in 0.015982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Bakery/examples/content/sponza/sponza.fbm/sponza_thorn_mask.png
+  artifactKey: Guid(158eefb924ec9444b8ff2c84937489af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bakery/examples/content/sponza/sponza.fbm/sponza_thorn_mask.png using Guid(158eefb924ec9444b8ff2c84937489af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3534a2ec6b6a7148932e9676bcda4d11') in 0.013668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.062610 seconds.
+  path: Assets/Bakery/examples/content/StoneBeach_Normal.png
+  artifactKey: Guid(f7cb3bf80f9eec2429456177b478a2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bakery/examples/content/StoneBeach_Normal.png using Guid(f7cb3bf80f9eec2429456177b478a2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67807b16aeb2fa07d42ed278718df9eb') in 0.040093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.800541 seconds.
+  path: Assets/EasyRoads3D/images/terrain_pre_build_options.jpg
+  artifactKey: Guid(d2b6a8511efde964b85bf21ca2a91157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/terrain_pre_build_options.jpg using Guid(d2b6a8511efde964b85bf21ca2a91157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05768f7517ef10b6263af31a19353e6d') in 0.012400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.052426 seconds.
+  path: Assets/VRCPlayersOnlyMirror/Textures/ToggleBox.png
+  artifactKey: Guid(d4a305d55e8c9e84d96b7b0724232461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRCPlayersOnlyMirror/Textures/ToggleBox.png using Guid(d4a305d55e8c9e84d96b7b0724232461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aab6ff0d0f9a3cb1b66bf87f5f534d6') in 0.013036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.003787 seconds.
+  path: Assets/EasyRoads3D/images/toolbar.jpg
+  artifactKey: Guid(5cec3baa8d02b6942baebcd198c2a274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/toolbar.jpg using Guid(5cec3baa8d02b6942baebcd198c2a274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba018b38023bd08b3434fd3488bec192') in 0.010806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/EasyRoads3D/images/topLeft.jpg
+  artifactKey: Guid(1e1f696444231b14e9f5051403f779b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/topLeft.jpg using Guid(1e1f696444231b14e9f5051403f779b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66f859504b147fe1af3786554b9c3d25') in 0.010983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/EasyRoads3D/images/topMenu.jpg
+  artifactKey: Guid(47e2eb72f49d31a41ba02b2bac94c617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/topMenu.jpg using Guid(47e2eb72f49d31a41ba02b2bac94c617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70d9a4cacb710bc90f26f14970450152') in 0.011095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007387 seconds.
+  path: Assets/VRCPlayersOnlyMirror/Textures/TransparencySlider.renderTexture
+  artifactKey: Guid(a4d38189231edea44ac45ab485fcb865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRCPlayersOnlyMirror/Textures/TransparencySlider.renderTexture using Guid(a4d38189231edea44ac45ab485fcb865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '627276bbb0a9fc7ba1ea2c84fb4ff9c7') in 0.013345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.092796 seconds.
+  path: Assets/EasyRoads3D/images/UVEditorShapeSO.jpg
+  artifactKey: Guid(2593010171e80cf4ab0270b596a3ea0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyRoads3D/images/UVEditorShapeSO.jpg using Guid(2593010171e80cf4ab0270b596a3ea0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a8f269d9598804bb9a4c98461d24a2a') in 0.011345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.460023 seconds.
+  path: Assets/Bakery/examples/content/sponza/sponza.fbm/vase_hanging.png
+  artifactKey: Guid(6ed99df5a877ab248ac411b156462cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bakery/examples/content/sponza/sponza.fbm/vase_hanging.png using Guid(6ed99df5a877ab248ac411b156462cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc0c3b10110412f8e56876f5ad3ac04') in 0.012743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002431 seconds.
+  path: Assets/Bakery/examples/content/sponza/sponza.fbm/vase_round.png
+  artifactKey: Guid(f9fb6b25c6cd9a34ebeb4b3246744105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bakery/examples/content/sponza/sponza.fbm/vase_round.png using Guid(f9fb6b25c6cd9a34ebeb4b3246744105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2583039975f1922e6bfa0e04571be0c6') in 0.017478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.032063 seconds.
+  path: Assets/VolumetricLightBeam/Resources/VLBBlueNoise.png
+  artifactKey: Guid(7c156dffca1e1ef4c916c6237a9d5f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VolumetricLightBeam/Resources/VLBBlueNoise.png using Guid(7c156dffca1e1ef4c916c6237a9d5f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcc10f69f2a466eff5e45befbbb67de1') in 0.022129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.022990 seconds.
+  path: Assets/VolumetricLightBeam/Editor/Icons/VolumetricDustParticles_button.png
+  artifactKey: Guid(eae0c95c9c12c4e40a87d028b6e5aaad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VolumetricLightBeam/Editor/Icons/VolumetricDustParticles_button.png using Guid(eae0c95c9c12c4e40a87d028b6e5aaad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c4664815fdd3ac27c27c8b268d1171') in 0.011662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/VolumetricLightBeam/Editor/Icons/VolumetricShadow_button.png
+  artifactKey: Guid(efed7519f7ad1054aa787834f3c3344d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VolumetricLightBeam/Editor/Icons/VolumetricShadow_button.png using Guid(efed7519f7ad1054aa787834f3c3344d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bbabbfe70574ec150cba7a7409b847f') in 0.009928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
